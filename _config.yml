@@ -1,7 +1,7 @@
-site: Sidey
-url: #yoururl
-title: Sidey
-description: Simple and minimalistic jekyll blogging theme.
+site: anton's notes
+url: https://antois.me/
+title: anton's notes
+description: Personal notes on data science and finance.
 twitter:
   username: #yourusername
   card: summary
