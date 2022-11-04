@@ -1,9 +1,11 @@
 links:
 - title: anton's notes
   url: /
-- title: About
+- title: about
   url: /about
-- title: Search
+- title: search
   url: /search
-- title: Rss
-  url: /atom.xml
+- title: contact
+  url: "https://docs.google.com/forms/d/e/1FAIpQLSew1RoP25e-oMoSCbqkKta9mxYJcwb2amqofNpDGtRYrxR8WA/viewform"
+
+#  url: /atom.xml
