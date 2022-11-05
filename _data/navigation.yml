@@ -3,9 +3,9 @@ links:
   url: /
 - title: about
   url: /about
-- title: search
-  url: /search
 - title: contact
   url: "https://docs.google.com/forms/d/e/1FAIpQLSew1RoP25e-oMoSCbqkKta9mxYJcwb2amqofNpDGtRYrxR8WA/viewform"
-
+#- title: search
+#  url: /search
+#- title: rss
 #  url: /atom.xml
