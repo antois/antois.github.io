@@ -75,8 +75,8 @@ Seems all nice and good except one thing: when I launched the app via `jupyter l
 
 
 
-#### Conclusion
+### Conclusion
 
 And that’s it! This command creates a new kernel for your environment’s Jupyter notebooks, which you can then pick to be used in your notebooks and which shows the correct Python version with `import sys; sys.version`. By the way, the `!jupyter-troubleshoot` command used within a Jupyter notebook or `jupyter-troubleshoot` in the environment’s terminal would print out a lot of useful information about Python paths the environment is using, which might also help a lot. 
 
-Please let me know if you have further questions with setting up Python with Conda on your MacOS system.
+Please [let me know](https://docs.google.com/forms/d/e/1FAIpQLSew1RoP25e-oMoSCbqkKta9mxYJcwb2amqofNpDGtRYrxR8WA/viewform) if you have further questions with setting up Python with Conda on your MacOS system!
