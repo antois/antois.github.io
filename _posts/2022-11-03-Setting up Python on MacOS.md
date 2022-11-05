@@ -3,6 +3,7 @@ title:  "Setting up Python on MacOS for Data Science"
 layout: post
 description: post description
 summary: post summary
+tags: [python3]
 ---
 
 
@@ -74,6 +75,8 @@ Seems all nice and good except one thing: when I launched the app via `jupyter l
 ```
 
 
+
+#### Conclusion
 
 And that’s it! This command creates a new kernel for your environment’s Jupyter notebooks, which you can then pick to be used in your notebooks and which shows the correct Python version with `import sys; sys.version`. By the way, the `!jupyter-troubleshoot` command used within a Jupyter notebook or `jupyter-troubleshoot` in the environment’s terminal would print out a lot of useful information about Python paths the environment is using, which might also help a lot. 
 
