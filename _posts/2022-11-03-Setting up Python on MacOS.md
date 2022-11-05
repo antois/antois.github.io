@@ -3,7 +3,6 @@ title:  "Setting up Python on MacOS for Data Science"
 layout: post
 description: post description
 summary: post summary
-tags: [python3]
 ---
 
 
