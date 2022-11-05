@@ -41,11 +41,11 @@
                                           the `%heading%` and `%html_id%` placeholders are available
       * anchorAttrs   (string) :  ''    - Any custom HTML attributes that will be added to the `<a>` tag; you may NOT use `href`, `class` or `title`;
                                           the `%heading%` and `%html_id%` placeholders are available
-      * anchorBody    (string) :  ''    - The content that will be placed inside the anchor; the `%heading%` placeholder is available
+      * anchorBody    (string) :  '%heading%'    - The content that will be placed inside the anchor; the `%heading%` placeholder is available
       * anchorClass   (string) :  ''    - The class(es) that will be used for each anchor. Separate multiple classes with a space
       * anchorTitle   (string) :  ''    - The `title` attribute that will be used for anchors
       * h_min         (int)    :  1     - The minimum header level to build an anchor for; any header lower than this value will be ignored
-      * h_max         (int)    :  6     - The maximum header level to build an anchor for; any header greater than this value will be ignored
+      * h_max         (int)    :  3     - The maximum header level to build an anchor for; any header greater than this value will be ignored
       * bodyPrefix    (string) :  ''    - Anything that should be inserted inside of the heading tag _before_ its anchor and content
       * bodySuffix    (string) :  ''    - Anything that should be inserted inside of the heading tag _after_ its anchor and content
       * generateId    (true)   :  false - Set to true if a header without id should generate an id to use.
