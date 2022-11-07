@@ -17,7 +17,7 @@ It’s August 2022 and I spent an unreasonable amount of time trying to set up a
 
 2 - Next, configure conda-forge as your default package channel
 
-```python
+```shell
 (base) $ conda config --add channels conda-forge
 (base) $ conda config --set channel_priority strict
 ```
@@ -26,7 +26,7 @@ It’s August 2022 and I spent an unreasonable amount of time trying to set up a
 
 3 - Further, create a new conda environment (named here as `my-new-environment`) with desired version of Python (we will use 3.10 version):
 
-```python
+```shell
 (base) $ conda create -y -n my-new-environment python=3.10
 ```
 
@@ -34,7 +34,7 @@ It’s August 2022 and I spent an unreasonable amount of time trying to set up a
 
 4 - Activate the environment
 
-```python
+```shell
 (base) $ conda activate my-new-environment
 (my-new-environment) $
 ```
@@ -43,7 +43,7 @@ It’s August 2022 and I spent an unreasonable amount of time trying to set up a
 
 5 - Install any packages you want **inside** the activated environment. Also, prefer `conda` to `pip` command while installing them, it’s easier to maintain this way going forward.
 
-```python
+```shell
 (my-new-environment) $ conda install -y pandas jupyter matplotlib
 ```
 
@@ -51,7 +51,7 @@ It’s August 2022 and I spent an unreasonable amount of time trying to set up a
 
 6 - Update conda or selected packages with:
 
-```python
+```shell
 conda update conda
 conda update anaconda 
 conda update package_name
@@ -61,7 +61,7 @@ conda update package_name
 
 7 - Launch Jupyter Lab notebook if you already installed `jupyter` in your environment:
 
-```python
+```shell
 jupyter lab
 ```
 
@@ -69,7 +69,7 @@ jupyter lab
 
 Seems all nice and good except one thing: when I launched the app via `jupyter lab` and checked Python version used by its kernel with `import sys; sys.version` I have suddenly discovered the kernel was using the wrong Python version — the one completely outside of the environment! So what should we do in this situation? Well, here is the tip that finally worked for me: inside your activated environment’s terminal window, type:
 
-```python
+```shell
 (my-new-environment) $ ipython kernel install --user --name=my-conda-env-kernel
 ```
 
