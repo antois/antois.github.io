@@ -18,10 +18,13 @@ baseurl: ""
 
 
 markdown: kramdown
-# highlighter: rouge
-#    input: GFM
+highlighter: rouge
+   input: GFM
 
-highlighter: none
+# highlighter: none
+
+include:
+  - _posts
 
 exclude:
   - .jekyll-cache
