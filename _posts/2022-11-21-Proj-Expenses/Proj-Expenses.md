@@ -52,7 +52,9 @@ sns.scatterplot(x=away.index, y=away["Сумма"])
 
 
 ![png](output_4_1.png)
-    
+
+
+
 
 
 
