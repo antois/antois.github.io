@@ -21,6 +21,7 @@ markdown: kramdown
 highlighter: rouge
     input: GFM
 
+# highlighter: none
 
 exclude:
   - .jekyll-cache
