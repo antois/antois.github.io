@@ -1,4 +1,4 @@
-## Plan
+## Plan - test
 
 - DONE import expenses
 - compute static monthly avg home meal price = food / N where N = ( 30 * 3 - [takeaway+resto above 4 eur treshold])
