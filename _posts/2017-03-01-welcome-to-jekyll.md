@@ -3,6 +3,8 @@ title: "Welcome to Jekyll"
 layout: post
 ---
 
+Значимость этих проблем настолько очевидна, что консультация с широким активом позволяет выполнять важные задания по разработке дальнейших направлений развития. Разнообразный и богатый опыт укрепление и развитие структуры позволяет выполнять важные задания по разработке существенных финансовых и административных условий.
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 
