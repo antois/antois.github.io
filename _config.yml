@@ -1,6 +1,6 @@
 title: "anton's notes"
 author: "Anton"
-description: "Personal notes on all things finance, quants and data science."
+description: "Personal notes on all things finance, tech and data science."
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -20,10 +20,10 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md"}
   - {title: Mail, icon: envelope, url: "mailto:cubism-envoy.0r@icloud.com"}
   - {title: Github, icon: github, url: "https://github.com/antois"}
+
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
-
-# external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
