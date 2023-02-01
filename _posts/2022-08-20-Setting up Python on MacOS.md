@@ -1,15 +1,17 @@
 ---
 title:  "Setting up Python on MacOS for Data Science"
 layout: post
-description: post description
-summary: post summary
 ---
 
+It’s August 2022 and I spent an unreasonable amount of time trying to set up a nice sealed Python environment on MacOS, so I decided to share the process that finally worked for me. 
 
 
-It’s August 2022 and I spent an unreasonable amount of time trying to set up a nice sealed Python environment on MacOS, so I decided to share the process that finally worked for me. I have previously set up multiple Python 2 & 3 versions via pip, homebrew, conda, etc etc… So my goal was to create an isolated enviroment where I could install any packages I want to work with, as well as the Python version of which I could easily control. This guide is based on the [1st chapter](https://wesmckinney.com/book/preliminaries.html#installation_mac) of the McKinney’s Python for Data Analysis book, as well as on [this StackOverflow post](https://stackoverflow.com/questions/58068818/how-to-use-jupyter-notebooks-in-a-conda-environment).
 
 
+
+I have previously set up multiple Python 2 & 3 versions via pip, homebrew, conda, etc etc… Which was pretty messy and always confusing when I was setting up an environment yet again.
+
+So my goal here was to create an isolated enviroment where I could install any packages I want to work with, as well as the Python version of which I could easily control. This guide is based on the [1st chapter](https://wesmckinney.com/book/preliminaries.html#installation_mac) of the McKinney’s Python for Data Analysis book, as well as on [this StackOverflow post](https://stackoverflow.com/questions/58068818/how-to-use-jupyter-notebooks-in-a-conda-environment).
 
 ### Algorithm
 
