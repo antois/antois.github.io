@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: page
 ---
 
-Personal blog on all things finance, tech and data science.
+Personal blog on all things finance, tech and data science. You may contact me via this [form](https://docs.google.com/forms/d/e/1FAIpQLSew1RoP25e-oMoSCbqkKta9mxYJcwb2amqofNpDGtRYrxR8WA/viewform). 
 
 Built with [Github Pages](https://pages.github.com/) and Niklas Buschmann's [Contrast](https://github.com/niklasbuschmann/contrast) theme.
 
