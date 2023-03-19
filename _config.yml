@@ -13,8 +13,6 @@ show_frame: false           # adds a gray frame to the site
 show_sidebar: false        # show a sidebar instead of the usual header
 minimal: false             # use a dark header
 
-prefers-color-scheme: light # trying to force this flag
-
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
