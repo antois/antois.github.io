@@ -1,6 +1,6 @@
 title: "anton's notes"
 author: "Anton"
-description: "All things finance, tech and data science \n © 2022 - 2023"
+description: "Notes on finance, tech, data science © 2022 - 2023"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -18,12 +18,12 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
 #  - {file: "index.html"}
   - {file: "README.md"}
-  - {title: Mail, icon: envelope, url: "mailto:cubism-envoy.0r@icloud.com"}
-  - {title: Github, icon: github, url: "https://github.com/antois"}
 
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Mail, icon: envelope, url: "mailto:cubism-envoy.0r@icloud.com"}
+  - {title: Github, icon: github, url: "https://github.com/antois"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
