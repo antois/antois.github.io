@@ -1,5 +1,5 @@
 ---
-title:  "Setting up Python on MacOS for Data Science"
+title:  "Python on MacOS for Data Science"
 layout: post
 ---
 
